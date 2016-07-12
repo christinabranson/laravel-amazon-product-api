@@ -24,7 +24,7 @@ The following table shows the file structure to make everything work within Lara
 The Amazon class in `app/Classes/Amazon.php` performs the following functions:
 
 | Function | Inputs | Returns | Description | Example |
-| ----- | ----- | ----- |
+| ----- | ----- | ----- |----- | ----- |
 | `__construct()` | - | - | Constructor for Amazon class. Applies config files from `/config/amazon.php`. | |
 | `itemSearch()` | keyword, category, page, sort | Http response | Performs basic itemSearch query based on keywords, with optional category, page number, or sorting options | `$response = Amazon::itemSearch("hello kitty", "All",1);` |
 | `itemLookup()` | ASIN | Http response | Performs basic itemLookup by Amazon ASIN identifier | `$response = Amazon::itemSearch("hello kitty", "All",1);` |
